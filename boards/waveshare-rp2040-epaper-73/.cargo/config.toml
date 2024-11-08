@@ -1,0 +1,8 @@
+# Because the graphics buffer takes almost the whole RAM the examples _must_ be
+# optimized
+
+[profile.dev]
+opt-level = 3
+
+[profile.dev.build-override]
+opt-level = 0

@@ -42,11 +42,11 @@ hal::bsp_pins!(
         }
     },
 
-    /// GPIO 5 is connected to the SD-Card SPI Select signal
+    /// GPIO 5 is connected to the SD-Card SPI CS signal
     Gpio5 {
-        name: sd_spi_select,
+        name: sd_spi_cs,
         aliases: {
-            FunctionSpi, PullNone: SdSpiSelect
+            FunctionSioOutput, PullUp: SdSpiCs
         }
     },
 
@@ -70,7 +70,7 @@ hal::bsp_pins!(
     Gpio9 {
         name: epd_spi_cs,
         aliases: {
-            FunctionSpi, PullNone: EpdSpiCs
+            FunctionSioOutput, PullUp: EpdSpiCs
         }
     },
 
