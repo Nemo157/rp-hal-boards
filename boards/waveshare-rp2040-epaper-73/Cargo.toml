@@ -15,7 +15,10 @@ rp2040-hal.workspace = true
 
 [dev-dependencies]
 embedded-hal.workspace = true
+heapless.workspace = true
 panic-halt.workspace = true
+usb-device.workspace = true
+usbd-serial.workspace = true
 
 [features]
 # This is the set of features we enable by default
