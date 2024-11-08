@@ -25,8 +25,9 @@ members = [
     "boards/sparkfun-thing-plus-rp2040",
     "boards/vcc-gnd-yd-rp2040",
     "boards/waveshare-rp2040-zero",
+    "boards/waveshare-rp2040-epaper-73",
     "boards/waveshare-rp2040-lcd-0-96",
-	"boards/waveshare-rp2040-lcd-1-28",
+    "boards/waveshare-rp2040-lcd-1-28",
 ]
 
 [workspace.dependencies]
